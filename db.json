@@ -1,57 +1,77 @@
 {
-  "database": "product-db",
+  "database": "trees-db",
   "version": 1,
   "encrypted": false,
   "mode": "full",
   "tables": [
     {
-      "name": "vendors",
+      "name": "tree",
       "schema": [
         { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
-        { "column": "company_name", "value": "TEXT NOT NULL" },
-        { "column": "company_info", "value": "TEXT NOT NULL" },
-        { "column": "last_modified", "value": "INTEGER DEFAULT (strftime('%s', 'now'))" }
-      ],
-      "values": [
-        [1, "Devdactic", "The main blog of Simon Grimm", 1587310030],
-        [2, "Ionic Academy", "The online school to learn Ionic", 1590388125],
-        [3, "Ionic Company", "Your favourite cross platform framework", 1590383895]
-      ]
-    },
-    {
-      "name": "products",
-      "schema": [
-        { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
-        { "column": "name", "value": "TEXT NOT NULL" },
-        { "column": "currency", "value": "TEXT" },
-        { "column": "value", "value": "INTEGER" },
-        { "column": "vendorid", "value": "INTEGER" },
-        { "column": "last_modified", "value": "INTEGER DEFAULT (strftime('%s', 'now'))" },
-        {
-          "foreignkey": "vendorid",
-          "value": "REFERENCES vendors(id)"
-        }
-      ],
-      "values": [
-        [1, "Devdactic Fan Hat", "EUR", 9, 1, 1604396241],
-        [2, "Ionic Academy Membership", "USD", 25, 2, 1604296241],
-        [3, "Ionic Sticker Swag", "USD", 4, 3, 1594196241],
-        [4, "Practical Ionic Book", "USD", 79, 1, 1603396241]
-      ]
-    },
-    {
-      "name": "trees",
-      "schema": [
-        { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
-        { "column": "name", "value": "TEXT NOT NULL" },
-        { "column": "scientific", "value": "TEXT" },
-        { "column": "family", "value": "TEXT" },
+        { "column": "common_name", "value": "TEXT NOT NULL" },
+        { "column": "scientific_name", "value": "TEXT NOT NULL" },
+        { "column": "family_name", "value": "TEXT NOT NULL" },
         { "column": "last_modified", "value": "INTEGER" }
       ],
       "values": [
-        [1, "Amunu", "Dacrycarpus imbricatus", "Dacrycarpus imbricatus", 1603396241],
+        [1, "Amunu", "Dacrycarpus imbricatus", "Podocarpaceae", 1603396241],
         [2, "Baka", "Ficus obliqua", "Moraceae", 1603396241],
         [3, "Bau", "Palaquium vitilevuense", "Sapotaceae", 1603396241]
+      ]
+    },        
+    {
+      "name": "family",
+      "schema": [
+        { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
+        { "column": "family_name", "value": "TEXT NOT NULL" },
+        { "column": "brackets_name", "value": "TEXT" },
+        { "column": "worldwide", "value": "TEXT" },
+        { "column": "fiji", "value": "TEXT" },
+        { "column": "economic", "value": "TEXT" },
+        { "column": "characteristics", "value": "TEXT" },
+        { "column": "genera", "value": "TEXT" },
+        { "column": "key", "value": "TEXT" },
+        { "column": "introduced", "value": "TEXT" },
+        { "column": "last_modified", "value": "INTEGER" }
+      ],
+      "values": [
+        [1, "Anacardiaceae", "Mango family", "73 genera; c. 850 species, mainly tropical, few temperate", "Tannins, fruits (cashew, pistachio, mango) and ornamentals. Mango(Mangifera indica) is widely cultivated in Fiji", "Trees, shrubs or lianas; bark resinous and many exude latex (often poisonous) that turns brown or black upon exposure. Slash pinkish to reddish brown. Stipules lacking. Leaves alternate (spirally arranged), imparipinnately compound or simple. Venation pinnate with secondary veins often curving close to margin. Leaflets usually asymmetric at base. Petiolar scars usually conspicuous and shieldlike. Flowers numerous, often white, mostly about 5mm across in upright, branched, terminal and cymose inflorescences. Fruit a drupe.", "Buchanania (damanu ni yaqaqa uko, maqo in veikau) 2 endemic spp., 1 described<br />Dracontomelon (tarawau) 1 sp.<br />Pleiogynium (manui, totowiwi) 2 spp., 1 endemic, 1 described<br />Rhus (manawi) 1 sp.<br />Semecarpus (kaukaro) 1 sp., described<br />Spondias (wi) 1 sp., aboriginal introduction, described", "1a. Leaves simple; stamens twice as many as the petals, all fertile<br />            2a.Leaves green beneath; venation closed Buchanania<br />            2b.Leaves grey-green beneath; venation open Semecarpus<br />            1b.Leaves compound; stamens 5-10, but usually only one fertile<br />            3a.Leaflets with conspicuous intramarginal veins Spondias<br />            3b.Leaflets lacking intramarginal veins<br />             4a.Secondary veins of leaflets curve strongly about halfway<br />             between the midrib and leaf margin Dracontomelon<br />             4b.Secondary veins of leaflets curve close to the leaf margin<br />             5a.Rachis sometimes narrowly winged; stamens 5; fruit a subglobose, 1-seeded, fleshy drupe Rhus<br />             5b.Rachis not winged; stamens usually 10; fruit subglobose, containing scone-shaped, 5- or more-seeded capsule Pleiogynium", "", 1603396241]
+      ]
+    },
+    {
+      "name": "species",
+      "schema": [
+        { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
+        { "column": "familyid", "value": "INTEGER NOT NULL" },
+        { "column": "species", "value": "TEXT" },
+        { "column": "synonym", "value": "TEXT" },
+        { "column": "fijian_name", "value": "TEXT" },
+        { "column": "rotuman_name", "value": "TEXT" },
+        { "column": "english_name", "value": "TEXT" },
+        { "column": "trade_name", "value": "TEXT" },
+        { "column": "height", "value": "TEXT" },
+        { "column": "bark", "value": "TEXT" },
+        { "column": "slash", "value": "TEXT" },
+        { "column": "leaves", "value": "TEXT" },
+        { "column": "cones", "value": "TEXT" },
+        { "column": "flowers", "value": "TEXT" },
+        { "column": "fruits", "value": "TEXT" },
+        { "column": "flowering", "value": "TEXT" },
+        { "column": "habitat", "value": "TEXT" },
+        { "column": "altitude", "value": "TEXT" },
+        { "column": "forest_type", "value": "TEXT" },
+        { "column": "distribution", "value": "TEXT" },
+        { "column": "uses", "value": "TEXT" },
+        { "column": "comments", "value": "TEXT" },
+        { "column": "diagnostic", "value": "TEXT" },
+        { "column": "last_modified", "value": "INTEGER" },
+        {
+          "foreignkey": "familyid",
+          "value": "REFERENCES family(id)"
+        }
+      ],
+      "values": [
+        [1, 1, "Buchanania vitiense Engl.","","Uko","","","Damanu ni Yaqaqa","8-18m,with a spreading crown.", "Grey-brown with circular ridges with a dark pink tinge.","Blood-red, with the inner layers successively pink to white; wood light, no latex.","Simple, obovate, leathery, 15-30 x 6-15cm (about twice as long as broad), margin entire, apex pointed. Petiole stout and 1cm or less long.","","Creamy-white, c. 7mm across, borne in terminal clusters amongst the leaves.","Ovoid, deep purple.","August to December; December to March.","Beach thickets and lowland coastal forest.","Sea level to 80m.","Lowland Rainforest","Endemic to Fiji and so far known from Viti Levu, Wakaya, coastal areas and on smaller islands off Vanua Levu and from islands in the Lau group.","A useful timber tree.","The second endemic species, Buchanania attenuata A.C. Sm. (maqo ni veikau), is distinguished from B. vitiense by its leaves that are 3 to 4 times longer than broad, and longer petioles.","Grey-brown bark with circular pink tinged patches (similar in colour to Calophyllum vitiense, damanu). Latex absent. Large obovate leaves similar to Palaquium vitilevuense (bau). Venation closed", 1603396241]
       ]
     }
   ]
