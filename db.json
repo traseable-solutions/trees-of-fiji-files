@@ -38,6 +38,21 @@
         [3, "Ionic Sticker Swag", "USD", 4, 3, 1594196241],
         [4, "Practical Ionic Book", "USD", 79, 1, 1603396241]
       ]
+    },
+    {
+      "name": "trees",
+      "schema": [
+        { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
+        { "column": "name", "value": "TEXT NOT NULL" },
+        { "column": "scientific", "value": "TEXT" },
+        { "column": "family", "value": "TEXT" },
+        { "column": "last_modified", "value": "INTEGER" }
+      ],
+      "values": [
+        [1, "Amunu", "Dacrycarpus imbricatus", "Dacrycarpus imbricatus", 1603396241],
+        [2, "Baka", "Ficus obliqua", "Moraceae", 1603396241],
+        [3, "Bau", "Palaquium vitilevuense", "Sapotaceae", 1603396241]
+      ]
     }
   ]
 }
