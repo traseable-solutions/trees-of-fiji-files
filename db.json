@@ -14,9 +14,28 @@
         { "column": "last_modified", "value": "INTEGER" }
       ],
       "values": [
-        [1, "Amunu", "Dacrycarpus imbricatus", "Podocarpaceae", 1603396241],
-        [2, "Baka", "Ficus obliqua", "Moraceae", 1603396241],
-        [3, "Bau", "Palaquium vitilevuense", "Sapotaceae", 1603396241]
+        [1, "Amunu", "Dacrycarpus imbricatus", "Podocarpaceae", 1615421514],
+        [2, "Baka", "Ficus obliqua", "Moraceae", 1615421514],
+        [3, "Bau", "Palaquium vitilevuense", "Sapotaceae", 1615421514],
+        [4, "Baumika", "Burckella parviflora", "Sapotaceae", 1615421514],
+        [5, "Bauvudi", "Palaquium porphyreum", "Sapotaceae", 1615421514],
+        [6, "Buabua", "Fagraea gracilipes", "Loganiaceae", 1615421514],
+        [7, "Bulu wai, Bulu M.", "Garcinia pseudoguttifera", "Clusiaceae", 1615421514],
+        [8, "Cevua", "Vavaea amicorum", "Meliaceae", 1615421514],
+        [9, "Cibicibi", "Cynometra insularis", "Caesalpiniaceae", 1615421514],
+        [10, "Dakua makadre", "Agathis macrophylla", "Araucariaceae", 1615421514],
+        [11, "Dakua salusalu", "Retrophyllum vitiensis", "Podocarpaceae", 1615421514],
+        [12, "Dalovoci", "Hernandia olivacea", "Hernandiaceae", 1615421514],
+        [13, "Damabi", "Endiandra elaeocarpa", "Lauraceae", 1615421514],
+        [14, "Damanu", "Calophyllum vitiense", "Clusiaceae", 1615421514],
+        [15, "Damanu draulalai", "Calophyllum leptocladum", "Clusiaceae", 1615421514],
+        [16, "Dawa", "Pometia pinnata", "Sapindaceae", 1615421514],
+        [17, "Dilo", "Calophyllum inophyllum", "Clusiaceae", 1615421514],
+        [18, "Dogo", "Bruguiera gymnorrhiza", "Rhizophoraceae", 1615421514],
+        [19, "Doi", "Alphitonia zizyphoides", "Rhamnaceae", 1615421514],
+        [20, "Drala", "Erythrina variegata", "Fabaceae", 1615421514],
+        [21, "Dulewa", "Xylopia pacifica", "Annonaceae", 1615421514],
+        [22, "Duva ni veikau", "Pittosporum pickeringii", "Pittosporaceae", 1615421514]
       ]
     },
     {
@@ -35,7 +54,7 @@
         { "column": "last_modified", "value": "INTEGER" }
       ],
       "values": [
-        [1, "Anacardiaceae", "Mango family", "73 genera; c. 850 species, mainly tropical, few temperate", "11 genera, 6 indigenous", "Tannins, fruits (cashew, pistachio, mango) and ornamentals. Mango(Mangifera indica) is widely cultivated in Fiji", "Trees, shrubs or lianas; bark resinous and many exude latex (often poisonous) that turns brown or black upon exposure. Slash pinkish to reddish brown. Stipules lacking. Leaves alternate (spirally arranged), imparipinnately compound or simple. Venation pinnate with secondary veins often curving close to margin. Leaflets usually asymmetric at base. Petiolar scars usually conspicuous and shieldlike. Flowers numerous, often white, mostly about 5mm across in upright, branched, terminal and cymose inflorescences. Fruit a drupe.", "Buchanania (damanu ni yaqaqa uko, maqo in veikau) 2 endemic spp., 1 described<br />Dracontomelon (tarawau) 1 sp.<br />Pleiogynium (manui, totowiwi) 2 spp., 1 endemic, 1 described<br />Rhus (manawi) 1 sp.<br />Semecarpus (kaukaro) 1 sp., described<br />Spondias (wi) 1 sp., aboriginal introduction, described", "1a. Leaves simple; stamens twice as many as the petals, all fertile<br />            2a.Leaves green beneath; venation closed Buchanania<br />            2b.Leaves grey-green beneath; venation open Semecarpus<br />            1b.Leaves compound; stamens 5-10, but usually only one fertile<br />            3a.Leaflets with conspicuous intramarginal veins Spondias<br />            3b.Leaflets lacking intramarginal veins<br />             4a.Secondary veins of leaflets curve strongly about halfway<br />             between the midrib and leaf margin Dracontomelon<br />             4b.Secondary veins of leaflets curve close to the leaf margin<br />             5a.Rachis sometimes narrowly winged; stamens 5; fruit a subglobose, 1-seeded, fleshy drupe Rhus<br />             5b.Rachis not winged; stamens usually 10; fruit subglobose, containing scone-shaped, 5- or more-seeded capsule Pleiogynium", "", 1603396241]
+        [1, "Anacardiaceae", "Mango family", "73 genera; c. 850 species, mainly tropical, few temperate", "11 genera, 6 indigenous", "Tannins, fruits (cashew, pistachio, mango) and ornamentals. Mango(Mangifera indica) is widely cultivated in Fiji", "Trees, shrubs or lianas; bark resinous and many exude latex (often poisonous) that turns brown or black upon exposure. Slash pinkish to reddish brown. Stipules lacking. Leaves alternate (spirally arranged), imparipinnately compound or simple. Venation pinnate with secondary veins often curving close to margin. Leaflets usually asymmetric at base. Petiolar scars usually conspicuous and shieldlike. Flowers numerous, often white, mostly about 5mm across in upright, branched, terminal and cymose inflorescences. Fruit a drupe.", "Buchanania (damanu ni yaqaqa uko, maqo in veikau) 2 endemic spp., 1 described<br />Dracontomelon (tarawau) 1 sp.<br />Pleiogynium (manui, totowiwi) 2 spp., 1 endemic, 1 described<br />Rhus (manawi) 1 sp.<br />Semecarpus (kaukaro) 1 sp., described<br />Spondias (wi) 1 sp., aboriginal introduction, described", "1a. Leaves simple; stamens twice as many as the petals, all fertile<br />            2a.Leaves green beneath; venation closed Buchanania<br />            2b.Leaves grey-green beneath; venation open Semecarpus<br />            1b.Leaves compound; stamens 5-10, but usually only one fertile<br />            3a.Leaflets with conspicuous intramarginal veins Spondias<br />            3b.Leaflets lacking intramarginal veins<br />             4a.Secondary veins of leaflets curve strongly about halfway<br />             between the midrib and leaf margin Dracontomelon<br />             4b.Secondary veins of leaflets curve close to the leaf margin<br />             5a.Rachis sometimes narrowly winged; stamens 5; fruit a subglobose, 1-seeded, fleshy drupe Rhus<br />             5b.Rachis not winged; stamens usually 10; fruit subglobose, containing scone-shaped, 5- or more-seeded capsule Pleiogynium", "", 1615421514]
       ]
     }
   ]
