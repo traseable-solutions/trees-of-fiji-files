@@ -527,8 +527,8 @@
       "name": "images",
       "schema": [
         { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
-        { "column": "species_id", "value": "TEXT NOT NULL" },
-        { "column": "image", "value": "TEXT" },
+        { "column": "species_id", "value": "INTEGER NOT NULL" },
+        { "column": "image", "value": "TEXT NOT NULL" },
         { "column": "caption", "value": "TEXT" },
         { "column": "last_modified", "value": "INTEGER" }
       ],
