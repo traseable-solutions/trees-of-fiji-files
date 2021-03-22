@@ -526,40 +526,6 @@
       ]
     },
     {
-      "name": "glossary_images",
-      "schema": [
-        { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
-        { "column": "glossary_id", "value": "INTEGER NOT NULL" },
-        { "column": "image", "value": "TEXT NOT NULL" },
-        { "column": "last_modified", "value": "INTEGER" }
-      ],
-      "values": [
-        [1,6,"acuminate.png",1615421514],
-        [2,7,"acute.png",1615421514],
-        [3,41,"cordate.png",1615421514],
-        [4,43,"crenulate.png",1615421514],
-        [5,46,"cuspidate.png",1615421514],
-        [6,52,"deltoid.png",1615421514],
-        [7,53,"dentate.png",1615421514],
-        [8,54,"digitate.png",1615421514],
-        [9,58,"elliptic.png",1615421514],
-        [10,61,"emarginate.png",1615421514],
-        [11,63,"entire.png",1615421514],
-        [12,68,"falcate.png",1615421514],
-        [13,97,"lanceolate.png",1615421514],
-        [14,112,"mucronate.png",1615421514],
-        [15,118,"oblique.png",1615421514],
-        [16,119,"oblong.png",1615421514],
-        [17,120,"obovate.png",1615421514],
-        [18,121,"obtuse.png",1615421514],
-        [19,123,"orbicular.png",1615421514],
-        [20,125,"ovate.png",1615421514],
-        [21,133,"peltate.png",1615421514],
-        [22,156,"retuse.png",1615421514],
-        [23,163,"serrate.png",1615421514]
-      ]
-    },
-    {
       "name": "images",
       "schema": [
         { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
