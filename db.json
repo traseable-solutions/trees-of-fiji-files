@@ -534,7 +534,7 @@
         { "column": "last_modified", "value": "INTEGER" }
       ],
       "values": [
-        [1,6,"acuminate.png",1615421514],
+        [1,6,"acuminate.jpg",1615421514],
         [2,7,"acute.png",1615421514],
         [3,41,"cordate.png",1615421514],
         [4,43,"crenulate.png",1615421514],
