@@ -8,7 +8,7 @@
       "name": "constants",
       "schema": [
         { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
-        { "column": "terms_url", "value": "INTEGER" },
+        { "column": "terms_url", "value": "TEXT NOT NULL" },
         { "column": "last_modified", "value": "INTEGER" }
       ],
       "values": [
