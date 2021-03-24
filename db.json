@@ -29,7 +29,7 @@
       "values": [
         [1, 73, 32, "Amunu", "<i>Dacrycarpus imbricatus</i>", "Podocarpaceae", 1615421514],
         [2, 65, 28, "Baka", "<i>Ficus obliqua</i>", "Moraceae", 1615421514],
-        [3, 0, 39, "Bau", "<i>Palaquium vitilevuense</i>", "Sapotaceae", 1615421514],
+        [3, 92, 39, "Bau", "<i>Palaquium vitilevuensis</i>", "Sapotaceae", 1615421514],
         [4, 89, 39, "Baumika", "<i>Burckella parviflora</i>", "Sapotaceae", 1615421514],
         [5, 91, 39, "Bauvudi", "<i>Palaquium porphyreum</i>", "Sapotaceae", 1615421514],
         [6, 56, 25, "Buabua", "<i>Fagraea gracilipes</i>", "Loganiaceae", 1615421514],
@@ -127,9 +127,9 @@
         [98, 49, 22, "Wiriwiri", "<i>Gyrocarpus americanus</i>", "Hernandiaceae", 1615421514],
         [99, 74, 32, "Yaka", "<i>Dacrydium nidulum</i>", "Podocarpaceae", 1615421514],
         [100, 71, 30, "Yadisravi", "<i>Syzygium fijiense</i>", "Myrtaceae", 1615421514],
-        [101, 70, 37, "Yasi", "<i>Syzygium decussatum</i>", "Santalaceae", 1615421514],
-        [102, 27, 12, "Yasimoli", "<i>Calophyllum vitiense</i>", "Clusiaceae", 1615421514],
-        [103, 0, 45, "Yaro", "<i>Premna protrusa</i>", "Verbenaceae", 1615421514]
+        [101, 85, 37, "Yasi", "<i>Santalum yasi</i>", "Santalaceae", 1615421514],
+        [102, 70, 12, "Yasimoli", "<i>Syzygium decussatum</i>", "Clusiaceae", 1615421514],
+        [103, 103, 45, "Yaro", "<i>Premna protusa</i>", "Verbenaceae", 1615421514]
       ]
     },
     {
